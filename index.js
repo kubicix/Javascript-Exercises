@@ -23,6 +23,14 @@ function Submit(){
     comment
 */
 
-let x=123;
+// let x=123;
+// x = Math.PI
 
-console.log(x);
+// let age =21;
+// let message=age >= 18 ? "You're an adult":"You're a kiddo";
+
+let userName="Kubicix";
+let message=userName.charAt(2)
+message=userName.indexOf("x")
+message=userName.length
+console.log(message);
