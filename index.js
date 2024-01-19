@@ -29,8 +29,14 @@ function Submit(){
 // let age =21;
 // let message=age >= 18 ? "You're an adult":"You're a kiddo";
 
-let userName="Kubicix";
-let message=userName.charAt(2)
-message=userName.indexOf("x")
-message=userName.length
-console.log(message);
+let userName="Kubicix Codes";
+
+// let message=userName.charAt(2)
+// message=userName.indexOf("x")
+// message=userName.length
+
+let firstName=userName.slice(0,userName.indexOf(" "))
+let lastName=userName.slice(userName.indexOf("C"),userName.length)
+
+console.log(firstName);
+console.log(lastName);
