@@ -29,14 +29,52 @@ function Submit(){
 // let age =21;
 // let message=age >= 18 ? "You're an adult":"You're a kiddo";
 
-let userName="Kubicix Codes";
+// let userName="Kubicix Codes";
 
 // let message=userName.charAt(2)
 // message=userName.indexOf("x")
 // message=userName.length
 
-let firstName=userName.slice(0,userName.indexOf(" "))
-let lastName=userName.slice(userName.indexOf("C"),userName.length)
+// let firstName=userName.slice(0,userName.indexOf(" "))
+// let lastName=userName.slice(userName.indexOf("C"),userName.length)
 
-console.log(firstName);
-console.log(lastName);
+// console.log(firstName);
+// console.log(lastName);
+
+//callbacks
+
+// function hello(callback){
+//     console.log("hello");
+//     callback();
+// }
+
+// function goodbye(){
+//     console.log("goodbye");
+// }
+
+// hello(goodbye);
+// let fruits=["banana","apple","orange"]
+
+// // fruits.forEach(capitalize);
+// fruits.map(capitalize)
+// fruits.forEach(display);
+
+// function capitalize(element,index,array){
+//     array[index]=element.charAt(0).toUpperCase()+element.slice(1);
+// }
+
+// function display(element){
+//     console.log(element);
+// }
+
+const hello = () => console.log("Arrow Function!")
+
+hello();
+
+const numbers = [1,2,3,4,5,6];
+
+const squares = numbers.map((number)=>number=Math.pow(number,2));
+const cubes = numbers.map((number)=>number=Math.pow(number,3));
+
+console.log(squares)
+console.log(cubes)
