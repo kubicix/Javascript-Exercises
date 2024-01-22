@@ -33,7 +33,4 @@ After cloning, you can explore the exercises and web page designs to further you
 ## 4. 🤝 Contributing
 If you'd like to contribute to this repository, feel free to fork it and submit a pull request with your changes.
 
-## 5. 📄 License
-This project is licensed under the MIT License - see the LICENSE.md file for details.
-
 Happy coding! 🚀✨
