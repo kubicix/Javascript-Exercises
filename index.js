@@ -67,14 +67,21 @@ function Submit(){
 //     console.log(element);
 // }
 
-const hello = () => console.log("Arrow Function!")
+// const hello = () => console.log("Arrow Function!")
 
-hello();
+// hello();
 
-const numbers = [1,2,3,4,5,6];
+// const numbers = [1,2,3,4,5,6];
 
-const squares = numbers.map((number)=>number=Math.pow(number,2));
-const cubes = numbers.map((number)=>number=Math.pow(number,3));
+// const squares = numbers.map((number)=>number=Math.pow(number,2));
+// const cubes = numbers.map((number)=>number=Math.pow(number,3));
 
-console.log(squares)
-console.log(cubes)
+// console.log(squares)
+// console.log(cubes)
+
+const person={
+    firstName:"Tony",
+    lastName:"Stark",
+    age:30,
+    isEmployed:true,
+}
