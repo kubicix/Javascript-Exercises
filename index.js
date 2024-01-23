@@ -79,9 +79,76 @@ function Submit(){
 // console.log(squares)
 // console.log(cubes)
 
-const person={
-    firstName:"Tony",
-    lastName:"Stark",
-    age:30,
-    isEmployed:true,
+// const person={
+//     firstName:"Tony",
+//     lastName:"Stark",
+//     age:30,
+//     isEmployed:true,
+// }
+
+// object destructuring
+
+// function displayPerson({firstName,lastName,age,job}){
+//     console.log(firstName+" "+lastName+" "+age+" "+job)
+// }
+
+// const person1={
+//     firstName:"Sean",
+//     lastName:"Paul",
+//     age:"36",
+//     job:"Singer",
+// }
+
+// displayPerson(person1);
+
+// const date = new Date(1311313111231);
+
+// console.log(date);
+
+// class outer{
+//     #message ="Hi";
+
+//     inner(){
+//         console.log(this.#message);
+//     }
+// }
+
+// const obj = new outer()
+// obj.inner();
+
+// function createCounter(){
+//     let count=0;
+
+//     function increment(){
+//         count++;
+//         console.log("Count increased to "+count);
+//     }
+
+//     function getCount(){
+//         console.log(count);
+//     }
+
+//     return{increment,getCount};
+// }
+
+// const counter = createCounter();
+
+// counter.increment();
+// counter.increment();
+// counter.increment();
+
+// //set timeout delay function
+// setTimeout(counter.getCount,3000);
+//clearTimeout function to stop timeouts
+
+let timeoutId;
+
+function startTimer(){
+    timeoutId = setTimeout(() => window.alert("Hello"),3000);
+    console.log("STARTED");
+}
+
+function stopTimer(){
+    clearTimeout(timeoutId);
+    console.log("STOPPED")
 }
