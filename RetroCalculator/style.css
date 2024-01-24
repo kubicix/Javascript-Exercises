@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: casio;
+    src: url('./casio.otf') format(opentype);
+}
+
+h1 {
+    font-family: casio;
+    color: rgb(29, 29, 29);
+}
+
+#calculator {
+    width: 390px; /* Artırılan boyut */
+    margin: 65px auto; /* Artırılan boyut */
+    border: 1px solid #ccc;
+    padding: 15px; /* Artırılan boyut */
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Artırılan boyut */
+    background-color: rgba(21, 21, 21, 0.704);
+}
+
+#display {
+    width: 100%;
+    padding: 15px; /* Artırılan boyut */
+    font-size: 1.8em; /* Artırılan boyut */
+    margin-bottom: 15px; /* Artırılan boyut */
+    background-color: #b5b5b5;
+    font-weight: bold;
+}
+
+#keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px; /* Artırılan boyut */
+}
+
+/* Number buttons */
+button {
+    width: 100%;
+    padding: 20px; /* Artırılan boyut */
+    font-size: 1.5em; /* Artırılan boyut */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #3b3b3b;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #5e5e5e;
+}
+
+button:active {
+    background-color: #969696;
+}
+
+/* Operation buttons */
+button.operator {
+    background-color: #ff9800;
+    color: white;
+}
+
+button.operator:hover {
+    background-color: #e68a00;
+}
+
+button.operator:active {
+    background-color: #d17a00;
+}

@@ -141,14 +141,21 @@ function Submit(){
 // setTimeout(counter.getCount,3000);
 //clearTimeout function to stop timeouts
 
-let timeoutId;
+// let timeoutId;
 
-function startTimer(){
-    timeoutId = setTimeout(() => window.alert("Hello"),3000);
-    console.log("STARTED");
-}
+// function startTimer(){
+//     timeoutId = setTimeout(() => window.alert("Hello"),3000);
+//     console.log("STARTED");
+// }
 
-function stopTimer(){
-    clearTimeout(timeoutId);
-    console.log("STOPPED")
-}
+// function stopTimer(){
+//     clearTimeout(timeoutId);
+//     console.log("STOPPED")
+// }
+
+// es6 module importing
+
+import { PI,getArea } from './mathUtil.js';
+
+console.log(getArea(2).toFixed(2,0)+"cm");
+

@@ -1,0 +1,29 @@
+body{
+    background-image: url(img/istanbul.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+#clock-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    /* text-align: center;
+    justify-content: center;
+    position: fixed;
+    font-size: 7rem; */
+}
+
+#clock{
+    font-family: monospace;
+    font-size: 6.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.927);
+    backdrop-filter: blur(3px);
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 100% , 0.1);
+}
