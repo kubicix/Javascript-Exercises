@@ -154,8 +154,32 @@ function Submit(){
 // }
 
 // es6 module importing
+ 
+// import { PI,getArea } from './mathUtil.js';
 
-import { PI,getArea } from './mathUtil.js';
+// console.log(getArea(2).toFixed(2,0)+"cm");
 
-console.log(getArea(2).toFixed(2,0)+"cm");
+// dom selectors and dom manipulation dom navigation
+
+// const heading=document.getElementById("myh1");
+
+// heading.style.backgroundColor="Turquoise";
+// heading.style.textAlign="center";
+
+// let fruits=document.getElementById("fruits");
+
+// const element=fruits.firstElementChild.nextElementSibling;
+// element.style.backgroundColor="orange";
+
+// const ul=document.querySelectorAll("ul");
+
+// for(let li of ul){
+//     const firstChild = li.firstElementChild;
+//     firstChild.style.backgroundColor="yellow"
+//     firstChild.nextElementSibling.style.backgroundColor="yellow"
+//     firstChild.nextElementSibling.nextElementSibling.style.backgroundColor="yellow"
+// }
+
+
+
 
