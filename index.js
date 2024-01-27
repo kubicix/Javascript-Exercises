@@ -180,6 +180,69 @@ function Submit(){
 //     firstChild.nextElementSibling.nextElementSibling.style.backgroundColor="yellow"
 // }
 
+// callback hell and how to avoid
 
+// function task1(){
+//     return new Promise((resolve,reject) => {
+//         setTimeout(() => {
+//             resolve("task 1 completed.");
+//         },1000);
+//     });  
+// }
 
+// function task2(){
+//     return new Promise((resolve,reject) => {
+//         setTimeout(() => {
+//             resolve("task 2 completed.");
+//         },1000);
+//     });  
+// }
 
+// function task3(){
+//     return new Promise((resolve,reject) => {
+//         setTimeout(() => {
+//             resolve("task 3 completed.");
+//         },1000);
+//     });  
+// }
+
+// // task1(() => { task2(() => { task3(() => console.log("All tasks completed."))})})
+
+// task1().then(value => {console.log(value);return task2()
+//         .then(value => {console.log(value); return task3()
+//         .then(value =>{console.log(value); console.log("all tasks finished.")})})});
+
+const names =["Spongebob","Patrick","Squidward","Sandy"];
+const person={
+    "name":"Spongebob",
+    "age":30,
+    "isEmployed":true,
+    "hobbies":["Jellyfishing","karate","Cooking"]
+};
+const people=[{
+    "name":"Spongebob",
+    "age":30,
+    "isEmployed":true
+},
+{
+    "name":"Patrick",
+    "age":34,
+    "isEmployed":true
+},
+{
+    "name":"Squidward",
+    "age":50,
+    "isEmployed":true
+},
+{
+    "name":"Sandy",
+    "age":27,
+    "isEmployed":false
+}];
+
+const jsonString = JSON.stringify(people);
+const jsonObject = JSON.parse(jsonString)
+console.log(jsonString);
+console.log(jsonObject);
+
+fetch("people.json").then(response => response.json()).then(values => values.forEach(value =>console.log(value.name))).catch(error =>console.error(error));
