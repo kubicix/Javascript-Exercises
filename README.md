@@ -37,10 +37,10 @@ After cloning, you can explore the exercises and web page designs to further you
 <img src="https://github.com/kubicix/Javascript-Exercises/assets/96316375/89446fd8-0bea-4aa4-8b22-6b321d222595" width="400" height="270">
 <img src="https://github.com/kubicix/Javascript-Exercises/assets/96316375/c75bbe04-95db-4112-9bce-8caf18e5223b" width="400" height="270">
 <img src="https://github.com/kubicix/Javascript-Exercises/assets/96316375/de12fcae-e136-4742-99f4-bdcd953ab94a" width="400" height="270">
+<img src="https://github.com/kubicix/Javascript-Exercises/assets/96316375/1b1d4326-0eab-493c-8ae0-bde689db3294" width="400" height="270">
 <img src="https://github.com/kubicix/Javascript-Exercises/assets/96316375/d4eafe4f-8d57-45a0-8455-40836ac3660c" width="400" height="270">
 <img src="https://github.com/kubicix/Javascript-Exercises/assets/96316375/ebb3e699-1368-470c-bdc2-0f56bac32b88" width="400" height="270">
 <img src="https://github.com/kubicix/Javascript-Exercises/assets/96316375/b41df568-bd2e-4881-a9de-8cb5f3d913e9" width="400" height="270">
-<img src="https://github.com/kubicix/Javascript-Exercises/assets/96316375/e75004f2-8076-433a-8464-536bcb9e8474" width="400" height="270">
 
 
 ## 5. 🤝 Contributing
